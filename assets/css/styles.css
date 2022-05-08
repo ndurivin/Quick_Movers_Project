@@ -116,8 +116,6 @@ header{
     font-size: 10px;
 }
 
-.navbarBottomRight{
-}
 
 .navbarBottom > .navbarBottomRight > h3{
     color: #ffff;
@@ -363,14 +361,19 @@ hr{
     border: none;
     margin-top: 50px;
     border-radius: 0px 20px 0px 0px;
+    margin-left: 270px;
 }
 
 .footerTop{
     display: flex;
+    padding-bottom: 40px;
+
 }
 
 .footerTop > h2{
    color: #ffff;
+   padding-top: 40px;
+   padding-left: 35px;
 }
 
 
