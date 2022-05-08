@@ -82,6 +82,15 @@ header{
     border-radius: 0px 20px 0px 0px;
 }
 
+.navbarBottomLeft{
+    float: inline-start;
+}
+
+.navbarBottomRight{
+    float: inline-end;
+    margin-left: 500px;
+}
+
 .navbarTop > ul > li >a{
     text-decoration: none;
     color: #ffff;
@@ -122,15 +131,28 @@ header{
 }
 
 .heroContent{
-    display: flex;
     background-color: whitesmoke;
-    margin: auto;
+}
+
+.heroRightTop{
+    background-color: white;
+    height: 40vh;
+    border-radius: 25px;
+    width: 40vh;
+}
+
+
+.heroLeft{
+    padding-top: 30px;
+}
+.heroLeftTop{
+    display: flex;
 }
 
 .smallImages{
     display: inline;
     float: left;
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 
@@ -223,14 +245,11 @@ header{
 }
 
 .ImagesTop{
-    flex-direction: row;
-    width: 30%;
     
 }
 
 .imageBottom{
-    flex-direction: row;
-    width: 30%;
+    
     
 }
 
@@ -259,6 +278,12 @@ hr{
 .btnSpan{
     color: #FFAC12;
 }
+
+.btnSpan-2{
+    color: #FFAC12;
+    margin-left: 50px;
+}
+
 
 .footerBottom{
     display: flex;
