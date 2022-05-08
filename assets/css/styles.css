@@ -26,7 +26,7 @@ header{
 
 .navbar{
     margin-left: 260px;
-    padding-top: 50px;
+    padding-top: 60px;
 }
 
 .navbar > ul > li{
@@ -39,14 +39,12 @@ header{
     text-decoration: none;
     color: #ffff;
     font-family: 'Adamina', serif;
-    font-size: 14px;
-    
+    font-size: 14px;  
 }
 
 .navbar > ul > li > .btn-1{
     background-color:  #FAFF00;
     width: auto;
-
     width: 50px;
 }
 
@@ -67,7 +65,7 @@ header{
     color: #FAFF00;
     font-family: 'Adamina', serif;
     font-size: 45px;
-    line-height: 3rem;
+    line-height: 3.5rem;
     
 }
 
@@ -82,9 +80,6 @@ header{
 .hustleContent{
     display: flex;
     margin-bottom: 30px;
-}
-
-.hustleRight{
 }
 
 .hustleRight h2{
@@ -117,4 +112,70 @@ header{
     border: none;
     height: 5px;
     margin-bottom: 10px;
+}
+
+.topMovers{
+    background-color: whitesmoke;
+    padding-top: 80px;
+    padding-left: 80px;
+}
+
+.topMovers h2{
+    font-size: 35px;
+    font-weight: 400;
+    font-family: 'Adamina', serif;
+}
+
+.imagesSection{
+    display: flex;
+    margin-top: 120px;
+}
+
+.ImagesTop{
+    flex-direction: row;
+    width: 30%;
+    
+}
+
+.imageBottom{
+    flex-direction: row;
+    width: 30%;
+    
+}
+
+.footer{
+    background-color: black;
+    height: 50vh;
+}
+
+.footer > h2{
+    color: #ffff;
+    font-family: 'Actor', sans-serif;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size: 30px;
+    padding-left: 80px;
+}
+
+hr{
+    width: 800px;
+}
+
+.btnSpan{
+    color: #FFAC12;
+}
+
+.footerBottom{
+    display: flex;
+}
+
+.socialMedia{
+    display: inline;
+    color: #ffff;
+    justify-content: space-around;
+}
+
+.footerRight{
+    float: right;
+    flex-direction: row;
 }
