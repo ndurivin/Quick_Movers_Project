@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=Adamina&family=Poppins:wght@100;200;300;400&display=swap');
+
+/*font-family: 'Actor', sans-serif;
+    font-family: 'Adamina', serif;
+    font-family: 'Poppins', sans-serif;
+    
+    Button Color 1 = #FFAC12-+
+Texts = #FAFF00
+Font type: Poppins,  Actor, Adamina*/
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    width: 80%;
+    margin: auto;
+}
+header{
+    background-image: url("../img/moving\ 1.png");
+    background-size: cover;
+    height: 90vh;
+    width: auto;
+    margin: 50px;
+}
+
+.navbar{
+    margin-left: 500px;
+}
+
+.navbar > ul > li{
+    display: inline-block;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.navbar > ul > li >a{
+    text-decoration: none;
+    color: #ffff;
+    font-family: 'Adamina', serif;
+}
+
+.navbar > ul > li > .btn-1{
+    background-color:  #FAFF00;
+}
+
+.navbar > ul > li > .btn-2{
+    background-color:  #0000;
+    color: #FAFF00;
+}
+
+.headerContent{
+    margin: 30px;    
+
+}
+
+.headerContent > h2{
+    margin: 30px;
+    color: #FAFF00;
+}
+
+.headerContent > p{
+    margin: 30px;
+    color: #ffff;
+}
