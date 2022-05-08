@@ -145,7 +145,7 @@ header{
 
 .footer{
     background-color: black;
-    height: 50vh;
+    height: 45vh;
 }
 
 .footer > h2{
@@ -154,11 +154,11 @@ header{
     padding-top: 60px;
     padding-bottom: 60px;
     font-size: 30px;
-    padding-left: 80px;
+    padding-left: 50px;
 }
 
 hr{
-    width: 800px;
+    width: 900px;
 }
 
 .btnSpan{
@@ -167,15 +167,55 @@ hr{
 
 .footerBottom{
     display: flex;
+    padding-top: 30px;
 }
 
+
 .socialMedia{
-    display: inline;
+    display: flex;
     color: #ffff;
-    justify-content: space-around;
 }
 
 .footerRight{
-    float: right;
+    display: flex;
     flex-direction: row;
+
+}
+
+.footerRight > .footerRight-left > h5{
+    color: #ffff;
+    padding-bottom: 10px;  
+}
+
+.footerRight > .footerRight-center > h5{
+    color: #ffff; 
+    padding-bottom: 10px;
+}
+
+.footerRight > .footerRight-right > h5{
+    color: #ffff; 
+    padding-bottom: 10px;
+}
+
+.footerRight-left > ul > li > a{
+    color: #ffff;
+    text-decoration: none;
+    list-style: none;
+}
+
+.footerRight-center > ul > li > a{
+    color: #ffff;
+    list-style: none;
+    text-decoration: none; 
+}
+
+.footerRight-right > ul > li > a{
+    color: #ffff;
+    list-style: none;
+    text-decoration: none; 
+}
+.footerRight-right > ul > li > a{
+    color: #ffff;
+    list-style: none;
+    text-decoration: none; 
 }
