@@ -172,6 +172,51 @@ form > input, textarea{
 }
 
 
+.contentBelow{
+    display: flex;
+    flex-direction: column;
+}
+
+.heroDetails{
+    display: flex;
+    float: left;
+    margin-top: 30px;
+    background-color: #ffff;
+    height: 100px;
+    width: 50%;
+    border-radius: 25px;
+}
+
+.heroDetails > h3{
+    margin-bottom: 20px;
+}
+
+.heroDescription{
+    margin-top: 30px;
+    width: 50%;
+    height: 35vh;
+    background-color: #ffff;
+    border-radius: 25px;
+    float: left;
+}
+
+.heroDescription > h3{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.heroDescription > p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.hrHero{
+    width: 50%;
+    float: left;
+    display: block;
+}
+
 
 
 
