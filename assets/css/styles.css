@@ -6,33 +6,31 @@
     font-family: 'Poppins', sans-serif;
     
     Button Color 1 = #FFAC12-+
-Texts = #FAFF00
-Font type: Poppins,  Actor, Adamina*/
+    Texts = #FAFF00
+    Font type: Poppins,  Actor, Adamina*/
 
 *{
     margin: 0;
     padding: 0;
-
-}
-
-body{
-    width: 80%;
+    width: 90%;
     margin: auto;
+    box-sizing: border-box;
 }
+
 header{
     background-image: url("../img/moving\ 1.png");
     background-size: cover;
-    height: 90vh;
-    width: auto;
-    margin: 50px;
+    height: 80vh;
+    margin-bottom: 50px;
 }
 
 .navbar{
-    margin-left: 500px;
+    margin-left: 260px;
+    padding-top: 50px;
 }
 
 .navbar > ul > li{
-    display: inline-block;
+    display: inline;
     justify-content: space-around;
     margin: 20px;
 }
@@ -41,28 +39,75 @@ header{
     text-decoration: none;
     color: #ffff;
     font-family: 'Adamina', serif;
+    font-size: 14px;
+    
 }
 
 .navbar > ul > li > .btn-1{
     background-color:  #FAFF00;
+    width: auto;
+
+    width: 50px;
 }
 
 .navbar > ul > li > .btn-2{
     background-color:  #0000;
     color: #FAFF00;
+    width: 50px;
 }
 
 .headerContent{
-    margin: 30px;    
+    margin: 30px;  
+    margin-top: 130px;  
 
 }
 
 .headerContent > h2{
-    margin: 30px;
+    margin: 40px;
     color: #FAFF00;
+    font-family: 'Adamina', serif;
+    font-size: 45px;
+    line-height: 3rem;
+    
 }
 
 .headerContent > p{
     margin: 30px;
     color: #ffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    line-height: 2rem;
+}
+
+.hustleContent{
+    display: flex;
+}
+
+.hustleContent > .hustleLeft{
+
+}
+
+.hustleRight h2{
+    font-size: 40px;
+}
+
+.hustleRight p{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-3{
+    color: #FAFF00;
+    background-color: black;
+    width: auto;
+    border: none;
+}
+
+.btn-5{
+    width: 150px;
+    background-image: linear-gradient();
+    border-radius: 25px;
+    border: none;
+    height: 5px;
+    margin-bottom: 10px;
 }
