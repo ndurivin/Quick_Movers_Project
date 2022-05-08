@@ -54,6 +54,97 @@ header{
     width: 50px;
 }
 
+
+.header-2{
+    height: 25vh;
+    background-color: black;
+}
+
+.navbarTop{
+    margin-left: 310px;
+    padding-bottom: 20px;
+}
+
+.navbarTop > ul > li{
+    display: inline;
+    justify-content: space-around;
+    margin: 20px;
+    
+}
+
+.btnWork{
+    color: black;
+    background-color: #FFAC12;
+    width: 155px;
+    height: 30px;
+    border: none;
+    margin-top: 50px;
+    border-radius: 0px 20px 0px 0px;
+}
+
+.navbarTop > ul > li >a{
+    text-decoration: none;
+    color: #ffff;
+    font-family: 'Adamina', serif;
+    font-size: 14px;  
+}
+
+.navbarBottom{
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+
+
+.navbarBottom > .navbarBottomLeft > h3{
+    color: #ffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbarBottom > .navbarBottomLeft > p{
+    color: #ffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+}
+
+.navbarBottomRight{
+}
+
+.navbarBottom > .navbarBottomRight > h3{
+    color: #ffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbarBottom > .navbarBottomRight > p{
+    color: #ffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+}
+
+.heroContent{
+    display: flex;
+    background-color: whitesmoke;
+    margin: auto;
+}
+
+.smallImages{
+    display: inline;
+    float: left;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .headerContent{
     margin: 30px;  
     margin-top: 130px;  
@@ -161,6 +252,10 @@ hr{
     width: 900px;
 }
 
+.hr-2{
+    width: 100%;
+    padding-bottom: 10px;
+}
 .btnSpan{
     color: #FFAC12;
 }
