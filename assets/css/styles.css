@@ -81,31 +81,38 @@ header{
 
 .hustleContent{
     display: flex;
+    margin-bottom: 30px;
 }
 
-.hustleContent > .hustleLeft{
-
+.hustleRight{
 }
 
 .hustleRight h2{
     font-size: 40px;
+    font-weight: 400;
 }
 
 .hustleRight p{
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    color: rgba(0,0,0,0.4);
+    font-weight: 600;
 }
 
 .btn-3{
     color: #FAFF00;
     background-color: black;
-    width: auto;
+    width: 155px;
+    height: 50px;
     border: none;
+    margin-top: 50px;
+    border-radius: 0px 20px 0px 0px;
 }
 
 .btn-5{
-    width: 150px;
-    background-image: linear-gradient();
+    width: 120px;
+    background-image: radial-gradient(#FFAC12, black);
     border-radius: 25px;
     border: none;
     height: 5px;
