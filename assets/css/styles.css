@@ -171,7 +171,8 @@ form > input, textarea{
 
 
 .contentBelow{
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
 .heroDetails{
