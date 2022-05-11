@@ -72,11 +72,6 @@ header{
     
 }
 
-.topHeadline{
-    /* text-decoration: overline; */
-
-}
-
 .btnWork{
     color: black;
     background-color: #FFAC12;
@@ -132,6 +127,7 @@ header{
     font-family: 'Poppins', sans-serif;
     font-size: 10px;
 }
+
 
 .heroContent{
     background-color: whitesmoke;
@@ -198,7 +194,6 @@ form > input, textarea{
     margin-top: 30px;
     background-color: #ffff;
     height: 100px;
-    width: 50%;
     border-radius: 25px;
 }
 
@@ -208,7 +203,6 @@ form > input, textarea{
 
 .heroDescription{
     margin-top: 30px;
-    width: 50%;
     height: 35vh;
     background-color: #ffff;
     border-radius: 25px;
@@ -284,10 +278,18 @@ form > input, textarea{
     font-weight: 400;
 }
 
+.features > .mainRow > p{
+    font-size: 12px;
+    text-transform: lowercase;
+}
+
 .row{
     display: flex;
     box-sizing: border-box;
-    margin: 20px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
 }
 
 .row-2{
@@ -300,6 +302,39 @@ form > input, textarea{
     display: flex;
     box-sizing: border-box;
 
+}
+
+.column{
+    margin: 0 auto;
+    background-color: #ffff;
+    
+}
+.icomImage{
+    width: 100%;
+}
+
+.icomImage > img {
+    width: 100%;
+}
+
+.icons{
+    display: flex;
+    border-radius: 0px 0px 20px 20px;
+    /* border: 1px solid #FAFF00; */
+}
+
+.iconHead{
+   margin: 20px;
+}
+
+.mainRow{
+    display: flex;
+    box-sizing: border-box;
+}
+
+
+.moversIcons{
+    margin: 10px;
 }
 
 .hustleRight p{
@@ -354,8 +389,8 @@ form > input, textarea{
 }
 
 .footer{
-    background-color: black;
-    height: 45vh;
+    background-image: linear-gradient(to right, black 50%, rgb(56, 41, 10));
+    height: 40vh;
 }
 
 .footer > h2{
