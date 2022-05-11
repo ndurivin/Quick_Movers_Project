@@ -285,11 +285,9 @@ form > input, textarea{
 
 .row{
     display: flex;
-    box-sizing: border-box;
-    justify-content: space-between;
-    align-items: center;
+    margin-right: 95px;
     gap: 10px;
-    margin-top: 20px;
+    margin: 10px
 }
 
 .row-2{
@@ -305,7 +303,6 @@ form > input, textarea{
 }
 
 .column{
-    margin: 0 auto;
     background-color: #ffff;
     
 }
@@ -323,13 +320,8 @@ form > input, textarea{
     /* border: 1px solid #FAFF00; */
 }
 
-.iconHead{
-   margin: 20px;
-}
-
 .mainRow{
     display: flex;
-    box-sizing: border-box;
 }
 
 
@@ -389,7 +381,7 @@ form > input, textarea{
 }
 
 .footer{
-    background-image: linear-gradient(to right, black 50%, rgb(56, 41, 10));
+    background-color: black;
     height: 40vh;
 }
 
@@ -403,7 +395,7 @@ form > input, textarea{
 }
 
 hr{
-    width: 900px;
+    width: 100%;
 }
 
 .hr-2{
@@ -464,17 +456,23 @@ hr{
 
 .footerRight > .footerRight-left > h5{
     color: #ffff;
-    padding-bottom: 10px;  
+    padding-bottom: 10px; 
+    text-decoration: none;
+    list-style: none; 
 }
 
 .footerRight > .footerRight-center > h5{
     color: #ffff; 
     padding-bottom: 10px;
+    text-decoration: none;
+    list-style: none;
 }
 
 .footerRight > .footerRight-right > h5{
     color: #ffff; 
     padding-bottom: 10px;
+    text-decoration: none;
+    list-style: none;
 }
 
 .footerRight-left > ul > li > a{
@@ -489,12 +487,12 @@ hr{
     text-decoration: none; 
 }
 
-.footerRight-right > ul > li > a{
+.footerRight > .footerRight-right > ul > li > a{
     color: #ffff;
     list-style: none;
     text-decoration: none; 
 }
-.footerRight-right > ul > li > a{
+.footerRight > .footerRight-right > ul > li > a{
     color: #ffff;
     list-style: none;
     text-decoration: none; 
